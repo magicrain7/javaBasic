@@ -5,13 +5,12 @@ public class CharOperationExample {
 
         int result = v1 / v2; // 2
         double result1;
-        
-      
+
         result = sum(10, 15);
         System.out.println(result);
         result = minus(v1, v2);
         System.out.println(result);
-        result1 = divide(v1,v2);
+        result1 = divide(v1, v2);
         System.out.println(result1);
     }
 
@@ -25,9 +24,9 @@ public class CharOperationExample {
         return result = num1 - num2;
     }
 
-    public static double divide( num1,  num2){
-        double a = (double)num1 / num2;   //return (double)num1 / num2;
-        return a;      
+    public static double divide(int num1, int num2) {
+        double a = (double) num1 / num2; // return (double)num1 / num2;
+        return a;
 
     }
 }
